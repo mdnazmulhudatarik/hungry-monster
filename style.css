@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited {
+    text-decoration: none;
+}
+
+.box-container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+/*  Header CSS
+-------------------- */
+header {
+    padding: 30px 0px 0px 0px;
+}
+
+.logo img {
+    width: 55px;
+}
+
+.site-Menu {
+    float: right;
+}
+
+.site-Menu ul li a {
+    padding: 0px 10px;
+    color: #000;
+    font-size: 15px;
+}
+
+
+
+/* Searcbar Section
+----------------------- */
+.searchbar {
+    margin: 50px 0px 50px 0px;
+}
+
+.searchbar-container{
+    max-width: 500px;
+}
+
+.search-input {
+    height: 50px;
+    border: none;
+    background: whitesmoke;
+    font-size: 14px;
+    color: gray;
+    padding-left: 50px;
+}
+.search-input:focus {
+    border-color: transparent;
+    box-shadow: none;
+    background: whitesmoke;
+}
+
+.search-btn  {
+    background-color: #F06C4E;
+    font-size: 14px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    left: 20px;
+}
+
+
+/* Gellery CSS
+------------------ */
+.gellery-card {
+    background-color: whitesmoke !important;
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.gellery-card-body {
+    background-color: whitesmoke !important;
+    overflow: hidden;
+    border: none;
+    padding: 0;
+    width: 100%;
+    height: 175px;
+}
+
+.gellery-card-body img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-header {
+    padding: 15px 0px;
+}
